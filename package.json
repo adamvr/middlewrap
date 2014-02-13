@@ -1,0 +1,21 @@
+{
+  "name": "middlewrap",
+  "version": "0.0.0",
+  "description": "A utility for wrapping functions in stacks of middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamvr/middlewrap.git"
+  },
+  "keywords": [
+    "function",
+    "middleware",
+    "wrap"
+  ],
+  "author": "Adam Rudd",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
