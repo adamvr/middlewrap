@@ -1,6 +1,6 @@
 var _ = require('underscore');
 
-var wrap = module.exports.wrap = function (f, stack) {
+var wrap = module.exports = function (f, stack) {
   return function () {
     var that = this
       , hookArgs // Arguments passed to original 
